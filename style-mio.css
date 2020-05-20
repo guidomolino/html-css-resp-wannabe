@@ -1,0 +1,24 @@
+@media only screen and (max-width: 420px) {
+  .row{
+    width: 100%;
+  }
+
+  #lezioni .row>.left, #lezioni .row>.right {
+    width: 100%;
+    float: none;
+  }
+
+  #steps .row>.left, #steps .row>.central, #steps .row>.right {
+    float: none;
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #why .row img {
+    padding: 0;
+  }
+}
